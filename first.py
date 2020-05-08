@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
 # My First Python Script
 # @author LixWorth
 
@@ -18,3 +20,16 @@ dhdj = "bug"
 bug = "dhdj"
 
 print(dhdj,bug)
+classmates = ['Michael', 'Bob', 'Tracy']
+
+print(len(classmates))
+print(classmates[0])
+print(classmates[1])
+print(classmates[-2])
+classmates.append("DHDJ")
+classmates.insert(2,"wjy")
+print("=============================================")
+# ['Michael', 'Bob', 'wjy', 'Tracy', 'DHDJ']
+classmates.pop(2)
+classmates[3] = "bugdhdj"
+print(classmates)
