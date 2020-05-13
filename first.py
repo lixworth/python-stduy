@@ -33,3 +33,11 @@ print("=============================================")
 classmates.pop(2)
 classmates[3] = "bugdhdj"
 print(classmates)
+
+# chxsb = input()
+# if chxsb == "1":
+#     print("chxsb 1")
+# elif chxsb == "2":
+#     print("chxsb 22")
+# else:
+#     print("bugdhdj")
